@@ -101,8 +101,8 @@ const Page = () => {
     { n: 1, label: "Email" },
     { n: 2, label: "Verify" },
     { n: 3, label: "Reset" },
-  ];
-
+  ]; 
+// Is all css here in tensor flow 
   return (
     <>
       <style>{`
@@ -119,13 +119,13 @@ const Page = () => {
           justify-content: center;
           position: relative;
           overflow: hidden;
-        }
+        }                                           
         .fp-root::before {
           content: '';
           position: fixed;
           top: -30%; left: -20%;
           width: 70vw; height: 70vw;
-          background: radial-gradient(circle, rgba(20,70,160,0.2) 0%, transparent 65%);
+          background: radial-gradient(circle, rgba(20,70,160,0.2) 0%, transparent 65%);     
           pointer-events: none;
         }
         .fp-root::after {
